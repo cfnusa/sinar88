@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sinar88 Balikpapan Pusat Bantuan Banyak Promo</title>
+  <meta name="description" content="Sinar88 adalah Toko Bahan Kue yang berada di kota Balikpapan, sudah berdiri sejak tahun 1990. Banyak Promo Win melimpah, Daftar Sekarang!">
+  <meta name="google-site-verification" content="P3QgO8ApZqP8-MVt8X-SygRTeacp3qCQQhtVTOXPpuI">
+  <link rel="canonical" href="https://sinar88baking.netlify.app">
+  
+  <!-- Preconnect & optimized font loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- AMP boilerplate (lightweight but fully functional without external libs) -->
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  
+  <style amp-custom>
+    /* ----- DESIGN SYSTEM (matching original) ----- */
+    :root {
+      --bg: #090a0c;
+      --surface: #111317;
+      --border: rgba(255,255,255,0.08);
+      --text-primary: #f0f3fa;
+      --text-secondary: #9ca3af;
+      --text-muted: #6b7280;
+      --accent: #e8a04a;
+      --accent-dim: rgba(232,160,74,0.12);
+      --green: #4ade80;
+      --green-dim: rgba(74,222,128,0.1);
+      --blue-dim: rgba(96,165,250,0.1);
+      --card-radius: 24px;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: var(--bg);
+      font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-primary);
+      line-height: 1.4;
+      min-height: 100vh;
+    }
+    
+    .page-wrapper {
+      min-height: 100vh;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 16px 64px;
+      position: relative;
+    }
+    
+    /* radial glow effect */
+    .glow-orb {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 400px;
+      background: radial-gradient(ellipse at center, rgba(232,160,74,0.07) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 460px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    /* animations: fade-up */
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    
+    .animate-up {
+      animation: fadeUp 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+    }
+    
+    /* status dot */
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: #4ade80;
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 #4ade80;
+      animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74,222,128,0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 4px rgba(74,222,128,0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74,222,128,0); }
+    }
+    
+    /* link cards */
+    .link-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 14px 18px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      backdrop-filter: blur(2px);
+    }
+    
+    .link-card:hover {
+      background: #181c24;
+      border-color: rgba(232,160,74,0.4);
+      transform: scale(1.01);
+    }
+    
+    .link-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    
+    .badge {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 30px;
+      background: rgba(74,222,128,0.15);
+      color: var(--green);
+    }
+    
+    .badge-accent {
+      background: var(--accent-dim);
+      color: var(--accent);
+    }
+    
+    .badge-blue {
+      background: rgba(96,165,250,0.12);
+      color: #60a5fa;
+    }
+    
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 20px 0;
+    }
+    
+    .footer-link {
+      font-size: 0.73rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .footer-link:hover {
+      color: var(--accent);
+    }
+    
+    h1, h2, .font-display {
+      font-family: 'Sora', 'DM Sans', sans-serif;
+      letter-spacing: -0.02em;
+    }
+    
+    /* responsive fine-tuning */
+    @media (max-width: 480px) {
+      .page-wrapper {
+        padding: 32px 16px 48px;
+      }
+      .link-card {
+        padding: 12px 16px;
+      }
+      .link-icon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    
+    /* smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="glow-orb"></div>
+    <div class="container">
+      
+      <!-- Hero section with animation delay using CSS classes + inline style for stagger -->
+      <div class="animate-up" style="animation-delay: 0ms; text-align: center; margin-bottom: 36px;">
+        <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+          <div style="width: 72px; height: 72px; border-radius: 20px; background: linear-gradient(135deg, #e8a04a 0%, #c97c2a 100%); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 1px rgba(232,160,74,0.3), 0 12px 40px rgba(232,160,74,0.2);">
+            <span style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 1.7rem; color: #0e0f11; letter-spacing: -0.02em;">S88</span>
+          </div>
+        </div>
+        <h1 class="font-display" style="font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; color: var(--text-primary); margin: 0 0 6px;">Sinar88 Balikpapan Pusat Bantuan</h1>
+        <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Deposit Ringan, Withdraw Cepat, Terima QRIS</p>
+        
+        <!-- status badge (live operational) -->
+        <div style="display: inline-flex; align-items: center; gap: 7px; margin-top: 14px; padding: 5px 14px; border-radius: 40px; background: var(--surface); border: 1px solid var(--border);">
+          <div class="status-dot"></div>
+          <span style="font-size: 0.75rem; color: var(--green); font-weight: 500;">All systems operational</span>
+        </div>
+      </div>
+      
+      <!-- LINKS SECTION -->
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        
+        <!-- Contact section label -->
+        <div class="animate-up" style="animation-delay: 80ms; margin-bottom: 4px;">
+          <div style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px; padding-left: 4px;">Contact Us</div>
+        </div>
+        
+        <!-- Live Chat card -->
+        <a href="https://www.sinar88helpa.com" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 120ms;">
+          <div class="link-icon" style="background: var(--green-dim);">
+            <span style="color: #4ade80;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex: 1; min-width: 0;">
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <span style="font-weight: 500; font-size: 0.92rem; color: var(--text-primary);">Live Chat Sinar88 — WhatsApp</span>
+              <span class="badge">Online</span>
+            </div>
+            <div style="font-size: 0.78rem; color: var(--text-secondary); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Dapatkan Bantuan Secara Langsung dari Team Sinar88</div>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: auto; opacity: 0.4; flex-shrink: 0;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <!-- Telegram Support -->
+        <a href="https://x.com/sinar88official" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 180ms;">
+          <div class="link-icon" style="background: var(--blue-dim);">
+            <span style="color: #60a5fa;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1; min-width:0;">
+            <div><span style="font-weight:500; font-size:0.92rem; color:var(--text-primary);">Telegram Support Sinar88</span></div>
+            <div style="font-size:0.78rem; color:var(--text-secondary); margin-top: 3px; white-space: nowrap; overflow:hidden; text-overflow:ellipsis;">Anda Bisa Kirimkan Pesan Kapapnpun di Telegram Sinar88</div>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <!-- Email Support -->
+        <a href="https://www.nicklausgolftrail.es" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 240ms;">
+          <div class="link-icon" style="background: var(--accent-dim);">
+            <span style="color: var(--accent);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1; min-width:0;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span style="font-weight:500; font-size:0.92rem;">Email Support</span>
+              <span class="badge badge-accent">24h reply</span>
+            </div>
+            <div style="font-size:0.78rem; color:var(--text-secondary); margin-top:3px;">support@sinar88.com</div>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <div style="height: 8px;"></div>
+        
+        <!-- Resources section label -->
+        <div class="animate-up" style="animation-delay: 300ms; margin-bottom: 4px;">
+          <div style="font-size:0.7rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-bottom:8px; padding-left:4px;">Resources</div>
+        </div>
+        
+        <!-- FAQ & Help Articles -->
+        <a href="https://www.sinar88911.com" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 350ms;">
+          <div class="link-icon" style="background: rgba(139, 92, 246, 0.12);">
+            <span style="color: #a78bfa;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 016.5 2H20v20H6.5a2.5 2.5 0 010-5H20"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1;"><span style="font-weight:500; font-size:0.92rem;">FAQ &amp; Help Articles</span>
+          <div style="font-size:0.78rem; color:var(--text-secondary); margin-top:3px;">Browse common questions and guides</div></div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <!-- Withdrawal & Deposit Guide -->
+        <a href="https://www.sinar88helpa.com" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 400ms;">
+          <div class="link-icon" style="background: var(--accent-dim);">
+            <span style="color: var(--accent);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.5 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7.5L14.5 2z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <line x1="10" y1="9" x2="8" y2="9"></line>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1;"><span style="font-weight:500; font-size:0.92rem;">Withdrawal &amp; Deposit Guide</span>
+          <div style="font-size:0.78rem; color:var(--text-secondary);">Step-by-step transaction instructions</div></div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <!-- Responsible Gaming -->
+        <a href="https://www.sinar88711.com" class="link-card animate-up" target="_blank" rel="noopener noreferrer" style="animation-delay: 460ms;">
+          <div class="link-icon" style="background: var(--green-dim);">
+            <span style="color: #4ade80;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1;"><span style="font-weight:500; font-size:0.92rem;">Responsible Gaming</span>
+          <div style="font-size:0.78rem; color:var(--text-secondary);">Tools and resources for safe play</div></div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        
+        <!-- Support Hours (internal anchor) -->
+        <a href="#hours" class="link-card animate-up" id="hours" style="animation-delay: 520ms;">
+          <div class="link-icon" style="background: rgba(248, 113, 113, 0.1);">
+            <span style="color: #f87171;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </span>
+          </div>
+          <div style="flex:1;"><span style="font-weight:500; font-size:0.92rem;">Support Hours</span>
+          <div style="font-size:0.78rem; color:var(--text-secondary);">Mon–Sun · 9:00 AM – 11:00 PM (MYT)</div></div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto; opacity:0.4;"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+      
+      <!-- Footer & bottom section -->
+      <div class="animate-up" style="text-align: center; margin-top: 44px; animation-delay: 580ms;">
+        <div class="divider"></div>
+        <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">© 2026 Sinar88 Balikpapan · All rights reserved</p>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 12px;">
+          <a href="https://www.sinar88helpa.com" class="footer-link">Terms of Service</a>
+          <a href="https://www.sinar88helpa.com" class="footer-link">Privacy Policy</a>
+          <a href="https://www.sinar88helpa.com" class="footer-link">Sitemap</a>
+        </div>
+        <div style="margin-top: 24px;">
+          <span style="font-size: 0.7rem; color: var(--text-muted);">⭐ Sinar88 — Banyak Promo & Winrate Tertinggi</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Simple scroll restoration without heavy external dependencies & interactive status (amp optimized) -->
+  <script>
+    (function(){
+      // Manage scroll restoration for anchors and refresh
+      if (window.location.hash) {
+        const id = window.location.hash.slice(1);
+        if (id) {
+          setTimeout(() => {
+            const el = document.getElementById(id);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 50);
+        }
+      }
+      // lightweight interactive effect: simulate real-time status updater (optional)
+      const statusDot = document.querySelector('.status-dot');
+      if (statusDot) {
+        // just for fun: keep blinking animation, green online
+        // Additional micro-interaction: set tooltip style
+      }
+      console.log('Sinar88 support hub live — AMP-like optimized');
+    })();
+  </script>
+</body>
+</html>
